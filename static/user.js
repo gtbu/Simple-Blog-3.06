@@ -15,4 +15,4 @@ $(function(){ // function call when DOM is ready, omit when using PHP $page->jQu
         $(this).siblings('ul').slideToggle();
       });
 
-}); // closing of DOM ready function -- from https://www.typesettercms.com/Forum?show=t2762&page=1#post_11526
+}); // closing of DOM ready function - from https://www.typesettercms.com/Forum?show=t2762&page=1#post_11526
