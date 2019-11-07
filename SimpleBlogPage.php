@@ -51,7 +51,7 @@ class SimpleBlogPage{
 		echo '<div class="blog_post single_blog_item '.$class.'" '.$id.'>';
 
 		//heading
-		$header			= '<h2 id="blog_post_'.$this->post_id.'">';
+		$header			= '<h2 class="hd2" id="blog_post_'.$this->post_id.'">';
 		if( SimpleBlogCommon::AStrGet('drafts',$this->post_id) ){
 			$header		.= '<span style="opacity:0.3;">';
 			$header		.= gpOutput::SelectText('Draft');
