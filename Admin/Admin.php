@@ -15,7 +15,8 @@ class SimipleBlogAdmin extends AdminSimpleBlogPage{
 
 		$page->css_admin[]	= '/include/css/addons.css'; //for hmargin css pre gpEasy 3.6
 		$page->head_js[]	= '/data/_addoncode/'.$addonFolderName.'/static/admin.js';
-		$page->css_admin[]	= '/data/_addoncode/'.$addonFolderName.'/static/admin.css'; //gpPlugin::css('admin.css'); //gpeasy 4.0+
+		$page->css_admin[]	= '/data/_addoncode/'.$addonFolderName.'/static/admin.css'; 
+		gpPlugin::css('admin.css'); //gpeasy 4.0+
 
 
 
