@@ -331,7 +331,7 @@ class AdminSimpleBlogConfig extends SimipleBlogAdmin{
 		echo '<p style="text-align:center">';
 			echo common::Link('Admin_Theme_Content',$langmessage['editable_text'],'cmd=addontext&addon='.urlencode($addonFolderName),' title="'.urlencode($langmessage['editable_text']).'" name="gpabox" ');
 			echo ' &nbsp; &nbsp; ';
-			echo common::Link('Admin_BlogConfig','Regenerate Gadget','cmd=regen',' name="creq"');
+			echo common::Link('Admin_BlogConfig','Regenerate Gadget','cmd=regen',' id="creq"');
 		echo '</p>';
 
 		echo '</form>';
