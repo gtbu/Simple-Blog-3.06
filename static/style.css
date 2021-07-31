@@ -51,5 +51,99 @@
 	padding-bottom: 20px;
 	}
 
+/*---------------user css ------------------------------------------*/
 
-h2.hd2 {font-size:20px;}
+.simple_blog_gadget li{	list-style:none;}
+
+.simple_blog_gadget ul li:first-child{}
+
+
+.simple_blog_gadget li::before {
+  content: "";}
+
+.simple_blog_gadget_year::before {
+  content: "\27a3";
+  font-size: 20px;
+  margin-left:-18px;
+  padding-bottom:2px;
+  color:gray;
+}
+
+a.blog_gadget_link:before{
+   
+   content: "\27A2";   /* category + moth arrow */
+    font-size: 20px;
+  color:gray;
+}
+
+ul.simple_blog_category_posts.nodisplay li {line-height: 20px; height: auto; }
+ul.nodisplay li {font-size:14px;}
+
+ul.simple_blog_category_posts.nodisplay li:before{
+   content: "\27A5";
+  color:gray;   /* archives */
+}
+
+ul.nodisplay li:before{  
+   content: "\27A5";
+  color:gray;   /* categories sub */
+}
+
+span.simple_blog_gadget_label::before {
+  content: "\1F5C1";
+  font-size: 16px;
+  color:gray;
+}
+
+.simple_blog_gadget_year{font-size:15px;}
+
+/* 
+https://unicode-table.com/de/sets/arrow-symbols/#right-arrows 
+https://unicode-table.com/de/blocks/miscellaneous-symbols-and-pictographs/ 
+*/
+
+.blog_post.single_blog_item {
+	border : 1px dotted gray;
+	border-radius:5px;
+	padding:15px;margin-top:10px;
+	background-color:#fefefe;
+}
+p.blog_nav_links{background-color:#fefefe;
+padding-left:5px; max-width:350px;}
+
+p.simple_blog_abbrev > a{font-size.15px;}
+
+.blog_nav_links, .category_container, .comment_container {padding: 10px;}
+
+h2.hd2 {font-size:18px;color:cornflowerblue;
+background-color:#efefef; }
+
+.blog_post.post_list_item{background-color:#efefef; }
+
+.comment_container h3{font-size:18px;color:cornflowerblue;
+background-color:#f0f0f0;max-width:200px;padding-left:10px; }
+
+.comment_container h3:before{
+  content: " \21e9  ";
+  font-size: 22px;
+  color:gray;
+ }
+
+.comment_area{padding:5px;}
+
+span.simple_blog_date, span.simple_blog_comments {background-color:#efefef;font-size:14px;}
+
+.blog_home, .blog_newer, .blog_post_new, .blog_older{ align-items: center;
+  color:cornflowerblue;}
+  
+ .blog_home:before, .blog_newer:before, .blog_post_new:before, .blog_older:before{ 
+  content: "  \00BB";
+  font-size: 20px;
+  color:gray;
+ }
+
+.twysiwygr, .comment_area{background-color:#fafafa;font-size:15px;}  /* color of comment */
+
+
+
+
