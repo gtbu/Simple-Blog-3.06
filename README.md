@@ -5,4 +5,6 @@ Blog plugin for [Typesetter CMS](https://github.com/Typesetter/Typesetter). It w
 
 Update : all archive gadget levels collapsible and collapsed now by default
 
+( Please remember to fist set Entries Per Page and Entries Per Gadget to 1-2 - otherwise You see lots of entries.)
+
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Typesetter/Simple-Blog/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Typesetter/Simple-Blog/?branch=master)
