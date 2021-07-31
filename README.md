@@ -3,7 +3,8 @@ Blog plugin for [Typesetter CMS](https://github.com/Typesetter/Typesetter). It w
 
 ** closing of DOM ready function - from https://www.typesettercms.com/Forum?show=t2762&page=1#post_11526  in static/user.js
 
-Update : all archive gadget levels collapsible and collapsed now by default
+Update : all archive gadget levels collapsible and collapsed now by default --- 
+7/21 : new css with UTF8 icons
 
 ( Please remember to fist set Entries Per Page and Entries Per Gadget to 1-2 - otherwise You see lots of entries.)
 
