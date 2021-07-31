@@ -16,3 +16,6 @@ $(function(){ // function call when DOM is ready, omit when using PHP $page->jQu
       });
 
 }); // closing of DOM ready function - from https://www.typesettercms.com/Forum?show=t2762&page=1#post_11526
+
+/* anchor : More Blog Entries */
+$('a[title^="More Blog Entries"]').css("font-size", "15px").css("margin-bottom", "5px");
