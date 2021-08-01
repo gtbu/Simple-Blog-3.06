@@ -61,14 +61,14 @@
   color:gray;
 }
 
-a.blog_gadget_link {margin-left:-20px;font-size:15px;}
+a.blog_gadget_link {margin-left:-10px;font-size:15px;}
 a.blog_gadget_link:before{   
    content: "\1405  ";   /* category + month arrow */
     font-size: 16px;
   color:gray;
 }
 
-ul.simple_blog_category_posts.nodisplay li, ul.nodisplay li {margin-left:-25px; font-size:15px;}
+ul.simple_blog_category_posts.nodisplay li, ul.nodisplay li {margin-left:-2px; font-size:15px;}
 ul.simple_blog_category_posts.nodisplay li {line-height: 20px; height: auto; }
 
 
