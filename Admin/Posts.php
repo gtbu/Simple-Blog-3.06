@@ -151,7 +151,7 @@ class AdminSimpleBlogPosts extends SimipleBlogAdmin{
 				}else{
 					echo $open;
 					echo ' &nbsp; ';
-					echo common::Link('Admin_Blog',$close,'cmd=closecomments&id='.$post_id,'name="cnreq"');
+					echo common::Link('Admin_Blog',$close,'cmd=closecomments&id='.$post_id,'id="cnreq"');
 				}
 			}else{
 				echo common::Link('Admin_BlogConfig','Disabled');
