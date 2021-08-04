@@ -64,7 +64,7 @@ class AdminSimpleBlogCategories extends SimipleBlogAdmin{
 
 			echo ' <input type="checkbox" name="catvis['.$catindex.']"'.$checked.'/> ';
 			echo '</td><td>';
-			echo common::Link('Admin_BlogCategories',$langmessage['delete'],'cmd=delete_category&index='.$catindex,' name="postlink" class="gpconfirm" title="Delete this Category?" ');
+			echo common::Link('Admin_BlogCategories',$langmessage['delete'],'cmd=delete_category&index='.$catindex,' id="postlink" class="gpconfirm" title="Delete this Category?" ');
 			echo '</td></tr>';
 		}
 		echo '</tbody>';
