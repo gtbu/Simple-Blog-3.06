@@ -1,5 +1,5 @@
 # Simple Blog
-Blog plugin for [Typesetter CMS](https://github.com/Typesetter/Typesetter). It works for example with [Html5](https://www.typesettercms.com/Themes/130_h5_html5_template)- , Nedstrap 1.0 and Two Point 0 - Templates (with sidebars).
+Blog plugin for [Typesetter CMS](https://github.com/Typesetter/Typesetter). It works for example with [Html5](https://www.typesettercms.com/Themes/130_h5_html5_template)- , Nedstrap 1.0, [Smart Multi](https://www.typesettercms.com/Themes/345_smart_multi) - white2 and Two Point 0 - Templates (with sidebars).
 
 ** closing of DOM ready function - from https://www.typesettercms.com/Forum?show=t2762&page=1#post_11526  in static/user.js
 
