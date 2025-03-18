@@ -7,7 +7,7 @@ It works for example with [Html5](https://github.com/gtbu/Online-Themes) , Nedst
 Update : all archive gadget levels collapsible and collapse now by default --- 
 7/21 : new css with UTF8 icons
 
-<b> 2025 : </b> : Newer typesetter versions have a strftime with \intltime\strftime() -  see <a href=https://github.com/gtbu/Typesetter-5.3-p8/issues/28> issues</a> : make modifikations in include/tool.php (use intltime; use function \intltime\strftime;)  and change all deprecations of strftime to \intltime\strftime in the blog-plugin
+<b> 2025 : </b> : strftime is deprecated since php 8.1 . It was replaced by a \PHP81_BC\strftime(). A similar function is <a href=https://www.w3schools.com/PHP/func_date_gmstrftime.asp> Gmstrftime</a>.  Newer typesetter versions have a strftime with \intltime\strftime() -  see <a href=https://github.com/gtbu/Typesetter-5.3-p8/issues/28> issues</a> : make modifikations in include/tool.php (use intltime; use function \intltime\strftime;)  and change all deprecations of strftime to \intltime\strftime in the blog-plugin
 
 ( Please remember to fist set Entries Per Page and Entries Per Gadget to 1-2 - otherwise You see lots of entries.)
 
