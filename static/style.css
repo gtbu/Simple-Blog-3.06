@@ -64,7 +64,7 @@
 a.blog_gadget_link {margin-left:-10px;font-size:15px;}
 a.blog_gadget_link:before{   
    content: "\1405  ";   /* category + month arrow */
-    font-size: 16px;
+    font-size: 14px;
   color:gray;
 }
 
@@ -86,7 +86,7 @@ ul.nodisplay li:before{
 span.simple_blog_gadget_label{font-size:15px;}
 span.simple_blog_gadget_label::before {
   content: "\1F5C1  ";
-  font-size: 16px;
+  font-size: 15px;
   color:gray;
 }
 
